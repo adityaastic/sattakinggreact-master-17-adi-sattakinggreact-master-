@@ -1,0 +1,445 @@
+/* Global Dark Theme */
+body {
+  background-color: #121212;
+  color: #e0e0e0;
+  font-family: Arial, sans-serif;
+}
+
+/* Gradient Background for Main Div */
+.main-div {
+  background: linear-gradient(135deg, #1e1e1e, #2c3e50);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+/* Header Styling with Yellow Gradient */
+.homeHeader {
+  font-weight: bold;
+  font-size: large;
+  text-decoration: none;
+  border-width: 3px;
+  border-color: #a61111;
+  border-style: outset;
+  margin-top: 2px;
+  color: #fefefe;
+  background: linear-gradient(135deg, #ffd700, #ffa500); /* Yellow gradient */
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.homeHeader a {
+  text-decoration: none;
+  color: #f00a3b;
+}
+
+.homeHeader .link {
+  border: 1px solid #444;
+  padding: 8px;
+  border-radius: 5px;
+}
+
+/* Header Heading with Yellow Gradient */
+.header-heading {
+  background: linear-gradient(135deg, #ffd700, #ffa500); /* Yellow gradient */
+  padding: 10px;
+  border-radius: 25px;
+  text-align: center;
+  border: dotted #a61111;
+}
+
+.header-heading h1 {
+  color: #f00a3b !important;
+  font-size: 21px !important;
+  padding-bottom: 7px !important;
+}
+
+.header-heading h6 {
+  color: #121212 !important; /* Dark text for contrast */
+  font-size: 15px !important;
+  font-weight: 700;
+  padding-top: 3px;
+}
+
+/* Current Banner with Yellow Gradient */
+.currentBanner {
+  background: linear-gradient(135deg, #1e1e1e, #2c3e50);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.currentBanner h6 {
+  color: #e0e0e0;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.currentBanner p {
+  color: #1ff5ed;
+  font-weight: bold;
+  font-size: 18px;
+  font-family: "Times New Roman", Times, serif;
+  margin-top: 10px;
+}
+
+.currentBanner button {
+  background: linear-gradient(135deg, #ffd700, #ffa500); /* Yellow gradient */
+  color: #121212; /* Dark text for contrast */
+  font-weight: bold;
+  border-radius: 30px;
+  padding: 10px;
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Bottom Result Section with Yellow Gradient */
+.bottomResult {
+  background: linear-gradient(135deg, #ffd700, #ffa500); /* Yellow gradient */
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.bottomResult h1 {
+  color: #121212; /* Dark text for contrast */
+  font-weight: bold;
+  text-shadow: 1px 1px #00f;
+}
+
+.bottomResult h3 {
+  color: #121212; /* Dark text for contrast */
+  text-shadow: 1px 1px #00f;
+  font-size: 50px;
+}
+
+.bottomResult hr {
+  opacity: 1 !important;
+  border-color: #444;
+}
+
+/* Game Column with Yellow Gradient */
+.game_column {
+  background: linear-gradient(135deg, #ffd700, #ffa500); /* Yellow gradient */
+  text-align: center;
+  border: 1px solid #444;
+  font-weight: bold;
+  color: #121212; /* Dark text for contrast */
+  padding: 1rem;
+  border-radius: 10px;
+}
+
+.game_column h6 {
+  text-transform: uppercase;
+  color: #121212; /* Dark text for contrast */
+  font-weight: bold;
+}
+
+.game_column span {
+  margin: 1rem;
+}
+
+.textColor {
+  color: yellow;
+  font-weight: bold;
+}
+
+/* Antd Table Styling with Dark Theme and Yellow Accents */
+.ant-table-thead > tr > td,
+.ant-table-thead th {
+  border-radius: 0px !important;
+  border-color: #444;
+  background: linear-gradient(135deg, #ffd700, #ffa500) !important; /* Yellow gradient for headers */
+  color: #121212 !important; /* Dark text for contrast */
+  font-weight: bold;
+  text-wrap: nowrap;
+}
+
+.ant-table-content td,
+.ant-table-content tr,
+.ant-table-content th {
+  padding: 10px 5px !important;
+  text-align: center !important;
+  border-right: 1px solid #444 !important;
+  vertical-align: middle !important;
+  border-bottom: 1px solid #444 !important;
+  background-color: #1e1e1e; /* Dark background for table cells */
+  color: #e0e0e0; /* Light text for readability */
+}
+
+.ant-table-content tr:nth-child(even) {
+  background-color: #2c3e50 !important; /* Slightly lighter dark shade for even rows */
+}
+
+.ant-table-wrapper,
+.ant-table-thead tr td,
+.ant-table-content,
+.ant-table-thead th {
+  border-bottom: 1px solid #444;
+}
+
+.ant-table-wrapper .ant-table-container table > tbody > tr > *:first-child {
+  background-color: #ffd700 !important; /* Yellow gradient for first column */
+  color: #121212 !important; /* Dark text for contrast */
+}
+
+.ant-table-wrapper .ant-table-container table > tbody > tr:hover {
+  background-color: #34495e; /* Darker shade on hover */
+  color: #ffd700; /* Yellow text on hover */
+}
+
+.ant-table-wrapper .ant-table-container table > tbody > tr:hover td {
+  color: #ffd700; /* Yellow text on hover */
+}
+
+/* Table Row Hover Effect */
+table tbody tr:hover {
+  background-color: #34495e; /* Darker shade on hover */
+  color: #ffd700; /* Yellow text on hover */
+}
+
+table tbody tr:hover td {
+  color: #ffd700; /* Yellow text on hover */
+}
+
+/* Table Border and Alignment */
+.ant-table-wrapper table {
+  border-radius: 0px !important;
+  border: 1px solid #444;
+}
+
+.ant-table-wrapper .ant-table-container table > thead > tr:first-child > *:first-child {
+  border-start-start-radius: 0px !important;
+}
+
+.ant-table-wrapper .ant-table-container table > thead > tr:first-child > *:last-child {
+  border-start-end-radius: 0px !important;
+}
+
+.ant-table-wrapper .ant-table-container table > tbody > tr:last-child > *:first-child {
+  border-end-start-radius: 0px !important;
+}
+
+.ant-table-wrapper .ant-table-container table > tbody > tr:last-child > *:last-child {
+  border-end-end-radius: 0px !important;
+}
+
+/* Footer Button Styling with Yellow Gradient */
+.footerButton {
+  background: linear-gradient(135deg, #ffd700, #ffa500); /* Yellow gradient */
+  font-size: 18px;
+  font-weight: 700;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.footerButton a {
+  text-decoration: none;
+  color: #121212; /* Dark text for contrast */
+}
+
+/* Banner Styling with Yellow Gradient */
+.banner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #ffd700, #ffa500); /* Yellow gradient */
+  padding: 15px;
+  border: double 6px #444;
+  border-radius: 30px;
+}
+
+/* Scrollbar Styling */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 10px;
+  background-color: #444;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 5px;
+  background-color: #666;
+  border: 1px solid #444;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #2c3e50;
+}
+
+/* About, FAQ, Privacy, Disclaimer, Contact Sections with Yellow Gradient */
+.about,
+.faq,
+.privacy,
+.disclaimer,
+.contact {
+  background: linear-gradient(135deg, #ffd700, #ffa500); /* Yellow gradient */
+  border-radius: 20px;
+  font-family: "Times New Roman", Times, serif;
+  color: #121212; /* Dark text for contrast */
+  padding: 20px;
+}
+
+.warning {
+  background: linear-gradient(135deg, #ffd700, #ffa500); /* Yellow gradient */
+  font-family: "Times New Roman", Times, serif;
+  color: #121212; /* Dark text for contrast */
+}
+
+.warning p {
+  color: #e74c3c;
+}
+
+.marqu {
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+.warning h2 {
+  font-weight: bold;
+}
+
+.about h3,
+.faq h3,
+.privacy h3,
+.disclaimer h3,
+.contact h3 {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.about p,
+.faq p,
+.privacy p,
+.disclaimer p,
+.contact p {
+  font-size: 20px;
+}
+
+/* Button Container with Yellow Gradient */
+.button-container {
+  display: flex;
+}
+
+.rounded-button {
+  text-align: center;
+  font-weight: 500;
+  background: linear-gradient(135deg, #ffd700, #ffa500); /* Yellow gradient */
+  color: #121212; /* Dark text for contrast */
+  width: 33%;
+  border: 5px solid #444;
+  border-radius: 15px;
+  padding: 8px;
+  cursor: pointer;
+  text-decoration: unset;
+}
+
+/* Toast Styling with Yellow Gradient */
+.toast-message {
+  background: #ffa500 !important; /* Yellow */
+  color: #121212 !important; /* Dark text for contrast */
+  border: 5px solid #ffd700; /* Yellow */
+}
+
+.Toastify__toast-body,
+.toast-message button {
+  color: #121212 !important; /* Dark text for contrast */
+}
+
+.Toastify__progress {
+  background-color: #ffd700 !important; /* Yellow */
+}
+
+/* Blinking Text Animation */
+@keyframes blink {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+.blinking-text {
+  animation: blink 1s infinite;
+}
+
+/* Text Color Animation */
+h2 {
+  font-size: 16px;
+  font-weight: bold;
+  color: transparent;
+  animation: effect 1s linear infinite;
+  text-transform: uppercase;
+}
+
+@keyframes effect {
+  0% {
+    background: linear-gradient(to left, #ffd700, #ffa500); /* Yellow gradient */
+    -webkit-background-clip: text;
+  }
+
+  100% {
+    background: linear-gradient(to left, #ffa500, #ffd700); /* Yellow gradient */
+    -webkit-background-clip: text;
+  }
+}
+
+/* Advertisement Section with Yellow Gradient */
+.advertisementSection .ad-section {
+  width: 92%;
+  margin: 20px auto;
+  border: 3px solid #ffa500; /* Yellow */
+  padding: 30px;
+  border-radius: 12px;
+  text-align: center;
+  background: linear-gradient(135deg, #ffd700, #ffa500); /* Yellow gradient */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.advertisementSection h3 {
+  color: #121212; /* Dark text for contrast */
+  font-size: 30px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.advertisementSection h4 {
+  color: #121212; /* Dark text for contrast */
+  font-size: 22px;
+  margin: 10px 0;
+}
+
+.advertisementSection .ad-btn {
+  color: #121212; /* Dark text for contrast */
+  background: linear-gradient(135deg, #ffd700, #ffa500); /* Yellow gradient */
+  border: none;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.advertisementSection .ad-btn:hover {
+  background: linear-gradient(135deg, #ffa500, #ffd700); /* Yellow gradient */
+  color: #121212; /* Dark text for contrast */
+}
+
+.fa-whatsapp {
+  background: #25d366;
+  border-radius: 65%;
+}
+
+.fa-phone {
+  color: #25d366;
+  box-shadow: 0px 0px 7px #fff;
+  background: #fff;
+  padding: 0.1rem;
+  border-radius: 5px;
+}
